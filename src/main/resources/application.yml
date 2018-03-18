@@ -1,0 +1,7 @@
+adminWebModule:
+  login:
+    rememberMe:
+      key: demo-changeme
+  root-path: /admin
+  title: Demo
+

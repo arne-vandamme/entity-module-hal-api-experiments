@@ -1,0 +1,16 @@
+across:
+  development:
+    active: false
+
+server:
+  error:
+    includeStacktrace: ALWAYS
+    whitelabel:
+      enabled: false
+  port: 8080
+
+spring:
+  datasource:
+    url: "jdbc:h2:./local-data/db/demo-db"
+    username: sa
+
